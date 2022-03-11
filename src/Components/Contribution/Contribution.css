@@ -1,0 +1,11 @@
+.contributionCard {
+	margin: 10vh 0 10vh 5vw;
+	border: red solid 5px;
+	width: 60vw;
+	background-color: white;
+
+	padding: 3vh;
+}
+.barChart {
+	width: 40vw;
+}

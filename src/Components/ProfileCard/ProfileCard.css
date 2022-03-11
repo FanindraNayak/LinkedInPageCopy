@@ -1,0 +1,143 @@
+:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+  }
+  .a{
+      margin: 0 0 0 5vw;
+  }
+  
+.ProfileCard {
+    
+    border-radius: 10px;
+    width: 60vw;
+    /* border: rgb(0, 0, 0) solid 3px; */
+    /* margin: 10vh 0 0 5vw; */
+    
+    background-color: #ffff;
+} 
+.profileBackground {
+	border-radius: 10px 10px 0 0;
+	height: 20vh;
+	text-align: right;
+	padding: 20px;
+    display: flex;
+    justify-content: right;
+    /* align-items: center; */
+	background-color: rgb(143, 182, 216);
+}
+.cameraImage{
+    display: flex;
+    justify-content: center;
+    width: 3vw;
+    height: 6vh;
+    background-color: #ffff;
+    border-radius: 100%;
+}
+.cameraImage>img{
+    /* background-color: blue; */
+    width: 50%;
+    /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
+}
+
+.profilePic {
+	border-radius: 50%;
+	border: 5px solid white;
+	margin: -5% 0 0 5%;
+	width: 10vw;
+	height: 20vh;
+}
+
+.editIcon {
+	display: flex;
+	justify-content: right;
+	align-items: right;
+
+	/* margin: 0 2vw 0; */
+    opacity: 0.6;
+}
+.editIcon >img {
+    margin-top: -15vh;
+}
+.profile {
+	/* border: rgb(0, 0, 0) solid 3px; */
+	display: flex;
+	margin-bottom: 5vh;
+}
+.profileDetails {
+	margin: -2vh 0 0 3vw;
+	width: 500rem;
+}
+.name {
+	font-size: 30px;
+}
+.designation {
+	font-size: 17px;
+	margin-top: 0.2vh;
+}
+.test{
+    display: flex;
+    margin-top: 0.8vh;
+}
+.location {
+    font-size: 15px;
+	
+	opacity: 0.4;
+}
+.dot{
+    border: black solid 2px;
+    height: 2px;
+    border-radius: 100%;
+    margin-top: 7px;
+    margin-left: 7px;
+    opacity: 0.5;
+}
+.contactLink {
+	color: rgb(15, 131, 226);
+	font-weight: bolder;
+	margin-left: 0.5vw;
+}
+.connection {
+	color: rgb(15, 131, 226);
+	font-weight: bolder;
+	margin-top: 2vh;
+	font-size: 18px;
+}
+button {
+	border: gray solid 1px;
+    margin-top: 5vh;
+	margin-right: 1vw;
+	font-weight: bolder;
+	font-size: 15px;
+	border-radius: 20px;
+	padding: 10px 20px;
+	color: rgb(126, 119, 119);
+	background-color: rgb(245, 244, 244);
+}
+.openTo {
+	border: none;
+	color: white;
+	background-color: rgb(15, 131, 226);
+}
+
+.workDetails {
+	width: 400vw;
+	margin: -2vh 0 0 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    font-weight: bold;
+}
+.workDetails>div{
+    display: flex;
+    margin-top: 10px;
+}
+.workDetails>div>p{
+    margin-top: 10px;
+}
+.Logo{
+    width: 2.5vw;
+    height: 5vh;
+    margin: 5px 10px 0 0; 
+}
